@@ -23,16 +23,193 @@ body,html{
 #l1{
     position: absolute;
     height: 100%;
-    width: 25%;
+    width: 26%;
     left: 0%;
 }
 #cen{
     position: absolute;
-    width: 25%;
+    width: 43%;
     height: 100%;
     /* left: ; */
-    /* left: 2%; */
-    background-image: url(l2.jpg);
+    left: 25.8%;
+    /* background-image: url(406593d1cb48adf17cfb672223c9be94.jpg); */
     background-position: center;
     background-size: cover;
+    
+}
+#cen{
+    background-image:linear-gradient(to top, rgba(77, 6, 6, 0), rgba(75, 7, 7, 0.801));
+    border-image: linear-gradient(to top,rgb(82, 30, 30),rgb(56, 26, 26))30;
+    border-left: 1px solid rgba(112, 57, 57, 0.781);
+    border-right: 1px solid rgba(54, 36, 36, 0.979);
+ }
+#mars{
+    position: absolute;
+    text-transform: uppercase;
+    color: tomato;
+    top: 33%;
+    left: 10px;
+    letter-spacing: 1px;
+    font-size: 90px;
+    background-color: transparent;
+
+}
+#mars:hover{
+    border-color: rgb(112, 108, 108);
+    box-shadow: 0 0.5em 0.8em -0.9em rgba(119, 110, 110, 0.404);
+    transform: scale(0.56);
+    color: white;
+
+}
+#m0{
+    position: absolute;
+    top: 26%;
+    left:10px;
+    color: white;
+}
+#m1{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    color: white;
+}
+#a{
+    position: absolute;
+    top: 79%;
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    left: 26%;
+
+}
+#a:hover{
+    color: whitesmoke;
+    transform: scale(0.70);
+
+}
+#a1{
+    position: absolute;
+    top: 84%;
+    color: white;
+    letter-spacing: .4px;
+    left: 26%;
+}
+#b{
+    position: absolute;
+    top: 79%;
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    left: 55%;
+}
+#b:hover{
+    color: whitesmoke;
+    transform: scale(0.70);
+
+}
+#b1{
+    position: absolute;
+    top: 84%;
+    color: white;
+    letter-spacing: .4px;
+    left: 55%;
+}
+#c{
+    position: absolute;
+    top: 79%;
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    left: 80%;
+}
+#c:hover{
+    color: whitesmoke;
+    transform: scale(0.70);
+
+}
+#c1{
+    position: absolute;
+    top: 84%;
+    color: white;
+    letter-spacing: .4px;
+    left: 80%;
+}
+#h1{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    letter-spacing: 1px;
+    color:tomato;
+}
+#h1:hover{
+    color:white;
+    /* background-color: #3a7fbb; */
+}
+#h2{
+    position: absolute;
+    top: 20px;
+    left: 65%;
+    letter-spacing: 1px;
+    color: tomato;
+}
+#h2:hover{
+    color: white;
+    /* background-color: #3a7fbb; */
+}
+#h3{
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    letter-spacing: 1px;
+    color: tomato;
+}
+#h3:hover{
+    color:white;
+    /* background-color: #3a7fbb; */
+}
+#menu{
+    position: absolute;
+    right:15px;
+    top: 16px;
+    height: 21px;
+}
+
+#s1{
+    position: absolute;
+    left: 15px;
+    top: 20%;
+    color: darkgrey;
+}
+#s2{
+    position: absolute;
+    left: 15px;
+    top: 30%;
+    color:darkgrey;
+}
+#s3{
+    position: absolute;
+    left: 15px;
+    top: 40%;
+    color: darkgrey;
+}
+#s4{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    color: darkgrey;
+}
+#lo{
+    position: absolute;
+    background-color: tomato;
+    height: 20px;
+    width: 20px;
+    top: 2%;
+    left: 1%;
+    border-radius: 50%;
+}
+#lo1{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    color: white;
 }
